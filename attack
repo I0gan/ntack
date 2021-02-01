@@ -1,0 +1,7 @@
+#! /bin/sh
+CLIENTS=1
+TIME=300
+HOST=222.18.158.42
+PORT=80
+sudo ./syn -l 32 $HOST:$PORT
+#./bench -c $CLIENTS -f -t $TIME http://$HOST:$PORT/

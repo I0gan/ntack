@@ -1,0 +1,3 @@
+#! /bin/bash
+NAME=bench
+ps -a | grep $NAME | xargs kill -9 2>/dev/null
